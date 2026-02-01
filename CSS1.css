@@ -1,0 +1,10 @@
+/* The body styles are affect the whole page (Unless more specified styles are selected */
+body{
+    background-color: rgb(119, 10, 10);
+    color: rgba(245, 245, 245, 0.904);
+    text-align: center;
+    padding: 5px
+    
+
+}
+
