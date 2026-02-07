@@ -1,0 +1,38 @@
+ body{
+            background-image: url(Images/Bg.jpg);
+            background-size: auto;
+            background-position: center;
+            margin: 5px;
+            padding: 0;
+            color: whitesmoke;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .contentbg{
+            text-align: center;
+            background-color: rgba(4, 56, 47, .4);
+            border-radius: 15px;
+        }
+
+        .flexcontainer{
+            text-align: center;
+            background-color: rgba(4, 56, 47, .4);
+            border-radius: 15px;
+            padding: 10px;
+            margin: 5px
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .flex-item{
+            flex: 1;
+        }
+
+        .img-vaca{
+            width: 98%
+           
+        }
+
+        @media (max-width: 768px){
+            .flexcontainer{flex-direction: column;}
+        }
