@@ -1,0 +1,33 @@
+body{
+    background-image: url(Images/Shrine\ Gate\ Tree.jpg);
+    background-position: top;
+    background-size: 100%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(252, 252, 252);
+    text-align: center;
+}
+
+.contentbg{
+    text-align: center;
+}
+
+    li{
+    display: inline-block;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 3px;
+    background-color: rgb(255, 190, 233);
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+li a:hover{
+    background-color: rgb(161, 161, 161);
+    color: rgb(126, 0, 0);
+}
