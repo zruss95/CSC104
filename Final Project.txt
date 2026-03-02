@@ -1,0 +1,18 @@
+			Final Project
+	The first page of my website is my Home page and its dedicated to talking about why I chose my gamertag and features a few videos of mine playing the game I play most often, Rocket League. If I was a wee bit better of a developer I'd have everything working properly and displayed vertically rather than stacked left to right as it is. I unfortunately ran out of time while gathering the finalizing content for this page and the Community page. In my previous plan for this, I had stated that I wasn't going to use my own content to make it easier by just using my snipping tool as I had done before to insert videos and relative to the topic at hand. Yet I wanted to test how well I could do while incorporating mostly my own content. Obviously the background images and the logos for the social media outlets were outsourced though.
+	The second page of my website is my most developed page and would actually not be where I put a bunch of my own content, for now I put some basic screenshots of CarX Street and captions in as placeholders. This page is the Community page.  The page's true intention is to be a place where my followers can gather, strut their stuff, show off their own content, talk to each other with replies (I didn't set that up though) and meet new people to game with. It also features the websites sign up form at the bottom. Unfortunately that form was my problem child on this page that I couldn't get to sit centered like the rest of the content.
+	My final page of my website is my simplest page, my Socials page. If I was a more developed web developer, if I was able to incorporate the server side of things to the site and if I was using this website for personal use, I would make all of the images of social media outlet logos hyperlinks to my personal social media pages and I would add a header below that would give the names to all my relative socials. Since this is not the scenario, I essentially laid the template for it and substituted my personal information for "Not available at this time."
+
+
+P.S. It's saying my videos are too large to upload to GitHub, that's the only reason they aren't included.
+
+Hope you enjoy it, Professor! Sorry its not perfect! I'm sorry I'm a few mins after the buzzer, I tried. :(
+-Zach
+
+List of relative pages
+-Homepage.html
+-Community.html
+-Socials.html
+-FinalProject CSS.css
+-CommunityCSS.css
+-SocialsCSS.css 

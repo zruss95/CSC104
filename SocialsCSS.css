@@ -1,0 +1,46 @@
+/* My CSS Notes are more gonna be about things I could use help with rather than writing you a list of everything I've done that you know how to do. */
+/* To be honest, this page was meant to be on the simple end in the display aspect of things, if this was running with the server side up, all the pictures would be links to active social media accounts for with the name displayed below each picture to advertise where
+   people could contact me or find more related content. */
+body{
+    background-image: url(./Images/YY\ dragons.jpg);
+    background-size: 100%;
+    background-position:top;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(243, 24, 97);
+    text-align: center;
+    text-emphasis-style: initial;
+}
+
+.contentbg{
+    text-align: center;
+}
+
+    li{
+    display: inline-block;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 3px;
+    background-color: rgb(243, 24, 97);
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+li a:hover{
+    background-color: rgb(161, 161, 161);
+    color: rgb(126, 0, 0);
+}
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.flex-container{
+    display: flex;
+}

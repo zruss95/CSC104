@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RS1ST ~ Home</title>
-    <link rel="stylesheet" href="Final Project CSS.css">
+    <!-- Embedded CSS -->
+    <link rel="stylesheet" href="FinalProjectCSS.css">
 </head>
+
+<!-- This page is the page that I've been struggling to get to align my items vertically and centered on. The other problem I have faced with this page is getting it to present my videos to show in Live Server, to convince me theyll work elswhere.-->
 <body>
+    <!-- The header represents the Top portion of the webpage. -->
+     <!-- Class attributes can group content or pieces of the website together for specific functions or designs to apply to them. -->
     <header class="contentbg">
         <h1>RS1ST</h1>
+        <!-- Nav sections act as navigation bars, Thi Li a Tag lets you link multiple pages in the same navigation bar. -->
         <nav>
+            <!-- UL is an Undefined List. -->
             <ul>
                 <li><a href="Homepage.html">Home</a></li>
                 <li><a href="Community.html">Community</a></li>
@@ -19,6 +26,8 @@
     </header>
 
     <main class="flex-container">
+        <!-- This is the main body of the webpage. -->
+         <!-- Sections help seperate the content. H1 Is the largest Header Font Setting. P is to insert Paragraghs or long bodies of text. -->
      <section class="flex-item contentbg">
         <h1>Why RS1ST?</h1>
         <p>No matter what you do in life there are always going to be people who want to see you fail, want to see you lose. People who prey on the weakness of others, and people that feel sorry for themselves and take it out on others.
@@ -27,19 +36,30 @@
      </section>
 
      <section class="flex-item contentbg">
-        <h2>Car X Street: Story Hustle</h2>
+        <!-- H2 is the second largest Header Font Setting. -->
+        <h2>Great Game of Rocket League With My Buddy</h2>
+        <!-- These are my video tags, I believe I set them up correctly and yet my videos refuse to show on LiveServer.. Here Lies Problem 2. -->
+         <!-- The controls width attribute gives the user the ability to control when the content plays or not, The width=60% scales down the size of the controls so the dont spread across the entire screen. -->
+          <!-- The type tag clarifies what kind of videofile you're trying to incorporate. -->
+           <!-- We use alt tags to describe what the content is tho those who use Speach-to-Read features. -->
         <video controls width="60%">
-            <source href="Videos/Old Car X Stream.mkv" type="video/mkv" alt="This is a stream of me grinding through the story mode of Car X Street.">
+            <source href="./Videos/GGwGrelks.mp4" type="video/mp4" alt="This is a replay of a great game of Rocket League, well played, with a buddy of mine.">
         </video>
      </section>
 
      <section class="flex-item contentbg">
         <h2>Old Rocket League Game</h2>
         <video controls width="60%">
-            <source href="Videos/Rocket League (64-bit, DX11, Cooked) 2025-06-18 02-41-01.mp4" type="videeo/mp4" alt="This is a video of a game of Rocket League before I was any goood at the game.">
+            <source href="./Videos/Rocket League (64-bit, DX11, Cooked) 2025-06-18 02-41-01.mp4" type="videeo/mp4" alt="This is a video of a game of Rocket League before I was any goood at the game.">
         </video>
      </section>
 
+     <section class="flex-item contentbg">
+        <h2>Modern Day Warm Ups For Me</h2>
+        <video controls width="60%">
+            <source href="./Videos/WarmUpClip.mp4" type="video/mp4" alt="This is a video of me warming up when i first get on the game.">
+        </video>
+     </section>
 
     </main>
 </body>

@@ -4,12 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Community</title>
+    <!-- Embedded CSS -->
     <link rel="stylesheet" href="CommunityCSS.css">
 </head>
 <body>
+    <!-- The header represents the Top portion of the webpage. -->
     <header>
+        <!-- H1 Is the largest Header Font Setting. -->
        <h1>Welcome to the RS1STANCE.</h1> 
+       <!-- Nav sections act as navigation bars, Thi Li a Tag lets you link multiple pages in the same navigation bar. -->
        <nav>
+        <!-- UL is an Undefined List. -->
             <ul>
                 <li><a href="Homepage.html">Home</a></li>
                 <li><a href="Community.html">Community</a></li>
@@ -19,9 +24,68 @@
     </header>
         
     <main>
+        <!-- This is the main body of the webpage. -->
+         <!-- Sections help seperate the content. P is to insert Paragraghs or long bodies of text. -->
+          <!-- H2 is the second largest Header Font Setting. -->
         <h2>This page is for you guys!</h2>
-        <p>This is a place where all of you can gather to share your clips of great gaming moments or crazy mechanical plays y'all have accomplished! You can also link up with fellow followers and get together to expand your gaming community.
+        <p>Join up today! This is a place where all of you can gather to share your clips of great gaming moments or crazy mechanical plays y'all have accomplished! You can also link up with fellow followers and get together to expand your gaming community.
              For now, Ill just put in some screenshots and example placeholders for you though.</p>
+
+    <section>
+        <!-- H3 is the third largest Header Font setting. -->
+        <h3>Here are some shots from CarX Street</h3>
+        <!-- img are image tags, src is short for source, which tells the code where to get the file from. -->
+         <!-- We use alt tags to describe what the content is tho those who use Speach-to-Read features. -->
+        <img src="./Images/400Zs.PNG" alt="This is an image of two Nissan 400z coupes parked dangerously close to a cliffside drop." class="CarX">
+        <h3>Who decided that this was a good place to park?</h3>
+    </section>
+
+    <section>
+        <img src="./Images/TurnpikeOverlook.PNG" alt="This is a 1st person view stepping out of the silver Nissan 400z, overlooking the turnpike road that hides behind the ledge." class="CarX">
+        <h3>What a view this place offers though.</h3>
+    </section>
+
+    <section>
+        <img src="./Images/DirtDropOverlook.PNG" alt="This is an image of Ford Mustang GT performing a tire drop, near the railing to a cliffside that overlooks the city below during a snowy night." class="CarX">
+        <h3>Who says Mustang drivers can't drive?</h3>
+    </section>
+
+    <section>
+        <img src="./Images/JapaneseOverlook.PNG" alt="This is an image of twon Nissan Silvia S15s and a Mitsubishi Lancer Evolution VIII parked outside of a Japanese Temple, looking out into the mountainside." class="CarX">
+        <h3>We look like we're up to no good.</h3>
+    </section>
+
+    <section>
+        <img src="./Images/JapaneseAutoShop.PNG" alt="This is an image of two Mazda RX-7s and a Dodge Viper SRT10 parked outside of a small tucked away autoshop hidden deep in the mountains." class="CarX">
+        <h3>Always loved this shop, where nobody comes to bother you.</h3>
+    </section>
+
+    <h1>Join The RS1STANCE.</h1>
+    <h3 class="closing">(You know you want to.)</h3>
+
+    <!-- The form tag lets you create forms that users can use to apply, submit, make payments etc. -->
+     <!-- The div tags work similarly to sections in the effect that they are useful to seperate your content. -->
+        <form name="frmApp" id="frmApp" action="#" method="post">
+            <div>
+                <!-- We always need to use label tags to label our input boxes so the user know what to input. You can also add placeholders to help give them examples -->
+                <label for="txtGamertag">Display Name/Gamertag:</label>
+                <!-- Their are a number of different kinds of inputs, but long story short they're what make a form fileable. These are the boxes that will allow the user to enter a specified kind of information. -->
+                <input type="text" name="txtGamertag" id="txtGamertag" placeholder="Display Name/Gamertag" required>
+            </div> 
+
+            <div>
+                <label for="emlUser">Email Address:</label>
+                <input type="email" name="emlUser" id="emlUser" placeholder="example123@gmail.com" required>
+            </div>
+
+            <div>
+                <label for="emlUser">Password:</label>
+                <input type="password" name="pwdUser" placeholder="******************" required>
+            </div>
+
+            <!-- Button tags are used to add simple buttons to the webpage. -->
+            <button type="submit">Join Today!</button>
+        </form>
     </main>
 </body>
 </html>

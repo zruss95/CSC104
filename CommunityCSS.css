@@ -1,12 +1,14 @@
+/* My CSS Notes are more gonna be about things I could use help with rather than writing you a list of everything I've done that you know how to do. */
+/* This is my favorite and hopefully your favorite page too, spent the most time here because its where it made sense to put the majority of the things I wanted to incorporate. Would have loved to do a bit more with the homepage but could get it to work with me. */
 body{
-    background-image: url(Images/Shrine\ Gate\ Tree.jpg);
+    background-image: url(./Images/Shrine\ Gate\ Tree.jpg);
     background-position: top;
     background-size: 100%;
     border-radius: 10px;
     margin: 0;
     padding: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(252, 252, 252);
+    color: whitesmoke;
     text-align: center;
 }
 
@@ -30,4 +32,56 @@ li a{
 li a:hover{
     background-color: rgb(161, 161, 161);
     color: rgb(126, 0, 0);
+}
+
+.flex-container{
+    display: flex;
+}
+
+/* Honestly, I'm not sure how I need to adjust this, I want to move my submission form to the center of the page but I cant seem to find the tool I need to center it.  */
+/* Maybe I should've relocated it to its own section like a footer? */
+form{
+    border: 2px solid pink;
+    align-content: center;
+    width: 200px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+input{
+    padding: 2px:
+}
+
+button{
+    border: 1px solid white;
+    padding: 1px;
+    border-radius: 4px;
+    font-weight: bolder;
+    background-color: pink;
+    cursor: pointer;
+    font-size: smaller;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: pink;
+}
+
+h3{
+    background-color: rgba(106, 171, 197, 0.5);
+    border-radius: 7px;
+    color: black;
+}
+
+.closing{
+    background-color: rgba(106, 171, 197, 0);
+    color: pink;
+}
+
+p{
+    background-color: rgba(39, 39, 39, 0.5);;
+    border-radius: 7px;
+    color: pink;
+    font-size: larger;
 }

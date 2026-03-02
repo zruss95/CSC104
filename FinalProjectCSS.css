@@ -1,0 +1,53 @@
+/* My CSS Notes are more gonna be about things I could use help with rather than writing you a list of everything I've done that you know how to do. */
+/* This page I cant seem to get to align centered and vertical like the others, maybe I needed a flexbox? */
+/* I also cant seem to get the videos to actually display, I only seem able to make the controls appear, I'd like to play around with the controls display in CSS but I don't see the point when they arent even in the correct position yet. */
+/* I went with the Franklin Gothic text to give a more aggressive and stern look to the text. */
+body{
+    background-image: url(./Images/Samurai\ backgrounf.png);
+    background-position: top;
+    background-size: 100%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+
+.contentbg{
+    padding: 5px;
+    text-align: center;
+}
+
+    li{
+    display: inline-block;
+}
+
+li a{
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+    padding: 3px;
+    background-color: rgb(126, 0, 0);
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+li a:hover{
+    background-color: rgb(161, 161, 161);
+    color: rgb(126, 0, 0);
+}
+
+section{
+    padding: 15px;
+}
+/* Have I done something wrong here? I tried space-around hoping it would help align the spacing instead of space-between. Honestly, I was just messing around to see what it would change and I couldnt notice a thing.*/
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 768px){
+    main{
+        flex-direction: column;
+}
